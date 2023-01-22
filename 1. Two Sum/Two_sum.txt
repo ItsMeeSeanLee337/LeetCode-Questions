@@ -1,0 +1,10 @@
+Pseudocode
+class solution
+    def twoSum (nums, target)
+        INITIALIZE HashMap
+        FOR EACH index, value IN nums
+            SET remainder TO target - value
+            IF remainder IN HashMap THEN
+                return (index, Hashmap(remainder))
+            ELSE
+                SET HashMap(value) TO index
