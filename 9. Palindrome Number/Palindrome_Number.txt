@@ -1,0 +1,11 @@
+Pseudocode
+class solution
+    def isPalindrome (x)
+        CONVERT x INTO STRING
+        INITIALIZE compare
+        FOR EACH digit IN x
+            ADD digit TO compare
+        IF compare EQUALS x (as String) THEN
+            RETURN True
+        ELSE
+            RETURN False
